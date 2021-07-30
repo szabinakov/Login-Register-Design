@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "main.scss",
-        "abstracts/_variables.scss"
+        "abstracts/_variables.scss",
+        "pages/_home.scss"
     ],
     "names": [],
     "file": "main.css"
