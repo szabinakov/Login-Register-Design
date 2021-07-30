@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-image: url(../../bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
