@@ -1,0 +1,71 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .left {
+        width: 300px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+
+        
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .ball.container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 100%;
+
+            .ball {
+                background: $secondary-pink;
+                border-radius: 50%;
+                border: 1px solid $secondary-blue;
+                margin: 1%;
+
+                &:hover {
+                    background: $secondary-blue;
+                    border: $secondary-pink;
+                }
+            }
+
+
+            .ball.one{
+                height: 20px;
+                width: 20px;
+            }
+            .ball.two{
+                width: 30px;
+                height: 30px;
+                margin-left: 22%;
+            }
+            .ball.three{
+                width: 40px;
+                height: 40px;
+                margin-left: 48%;
+            }
+            .ball.four{
+                width: 50px;
+                height: 50px;
+                margin-left: 80%;
+            }
+        }
+
+    }
+
+    .left.login, .form.register {
+        background: $primary-blue;
+    }
+    .left.register, .form.login{
+        background: $primary-pink;
+    }
+
+}
+
